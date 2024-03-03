@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: gainsboro;
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+ul li
+{
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+.formula
+{
+    margin: 10px;
+}
+h1
+{
+    margin: 20px 10px;
+}
+.field
+{
+    display: flex;
+    padding: 10px;
+}
+#height
+{
+    margin-left: 5px;
+    font-size: 20px;
+}
+#weight
+{
+    margin-left: 5px;
+    font-size: 20px;
+}
+.text
+{
+    font-size: 20px;
+}
+button
+{
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    left: 130px;
+    cursor: pointer;
+}
+.weight-guide
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2
+{
+    margin: 20px;
+}
+.words
+{
+    margin: 10px;
+    font-size: 20px;
+}
+#result
+{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}

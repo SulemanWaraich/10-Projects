@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li><img src="images/image1.jpg" alt="pic" style="width: 100px;"></li>
+            <li><img src="images/image2.jpg" alt="pic" style="width: 100px; height: 75px;"></li>
+            <li><img src="images/image3.jpg" alt="pic" style="width: 100px;"></li>
+            <li><img src="images/image4.jpg" alt="pic" style="width: 100px;"></li>
+            <li><img src="images/image5.jpg" alt="pic" style="width: 100px;"></li>
+        </ul>
+    </div>
+</body>
+<script>
+    let element = document.getElementsByClassName('container');
+    element[0].addEventListener('click',function(e)
+    {
+        console.log(e.target.tagName);
+
+        if(e.target.tagName === 'IMG')
+        {
+            let remove = e.target.parentNode;
+            remove.remove();
+        }
+    })
+</script>
+</html>

@@ -1,0 +1,33 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+.container
+{
+    border: 2px solid black;
+    width: 20vw;
+}
+.field
+{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+.field input
+{
+    width: 90%;
+    font-size: 50px;
+}
+.buttons
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+button
+{
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Bat Ball Stump Game</h1>
+   
+    <button class="choice-button" onclick=
+    "
+        let computerChoice = randomChoiceGenerator();
+        let resultMsg = getResult('bat', computerChoice);
+        showResult('bat',computerChoice,resultMsg);
+    "
+    >
+        <img src="images/bat.jfif" alt="bat-image" class="choice-image">
+    </button>
+    <button class="choice-button" onclick=
+    "
+        computerChoice = randomChoiceGenerator();
+        resultMsg = getResult('ball', computerChoice);
+        showResult('ball',computerChoice,resultMsg);
+    "
+    >
+        <img src="images/ball.jfif" alt="ball-image" class="choice-image">
+    </button>
+    <button class="choice-button" onclick=
+    "
+        computerChoice = randomChoiceGenerator();
+        resultMsg = getResult('stump', computerChoice);
+        showResult('stump',computerChoice,resultMsg);
+    "
+    >
+        <img src="images/stump.png" alt="stump-image" class="choice-image">
+    </button>
+
+</div>
+
+<h3 id="user-move"></h3>
+<h3 id="computer-move"></h3>
+<h3 id="result"></h3>
+<h3 id="noOfMatches"></h3>
+
+<button onclick=
+    "
+        localStorage.clear();
+        resetScore();
+    "
+    >Reset</button>
+
+<script src="main.js"></script>
+</body>
+</html>

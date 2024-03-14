@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    background-color: rgb(29, 29, 29);
+}
+.container
+{
+    display: flex;
+    width: 900px;
+    overflow-x: scroll;
+}
+.container div
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    padding: 10px;
+    flex: none;
+}
+.container div img
+{
+    width: 100%;
+    filter: grayscale(100);
+    transition: 0.5s;
+}
+.container div img:hover
+{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.container::-webkit-scrollbar
+{
+    display: none;
+}
+.gallery
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 9% auto;
+}
+#backBtn, #nextBtn
+{
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}

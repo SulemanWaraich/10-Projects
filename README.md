@@ -1,2 +1,2 @@
-# 12-Projects
-This is my 12 projects where i mainly focus on building my foundations.In these projects i am using pure (HTML, CSS, JAVASCRIPT) to clear all basic and necessary concepts of these languages, and also to enchance my coding skills. Thank you!
+# 13-Projects
+This is my 13 projects where i mainly focus on building my foundations.In these projects i am using pure (HTML, CSS, JAVASCRIPT) to clear all basic and necessary concepts of these languages, and also to enchance my coding skills. Thank you!

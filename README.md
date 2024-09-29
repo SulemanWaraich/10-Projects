@@ -1,2 +1,2 @@
-# 20-Projects
-This is my 20 projects where i mainly focus on building my foundations.In these projects i am using pure (HTML, CSS, JAVASCRIPT) to clear all basic and necessary concepts of these languages, and also to enchance my coding skills. Thank you!
+# 22-Projects
+I have completed 22 foundational projects, focusing on core web technologies: HTML, CSS, and JavaScript. These projects were designed to solidify my understanding of essential programming concepts, while also sharpening my problem-solving and coding skills. Each project helped me reinforce best practices in front-end development, laying a strong groundwork for more advanced work. Thank you!
